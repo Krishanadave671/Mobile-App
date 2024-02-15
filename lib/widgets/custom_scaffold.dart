@@ -316,7 +316,6 @@ class _CustomScaffoldState extends ConsumerState<CustomScaffold>
   Future<void> _navigate(String path) async {
     await _controller.reverse();
 
-
     final router = GoRouter.of(context);
     if (GoRouterState.of(context).uri.toString() != path) router.push(path);
     // router.push(path);

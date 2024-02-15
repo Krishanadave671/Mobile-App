@@ -717,7 +717,7 @@ class _ProfilePageState extends ConsumerState<ProfilePage> {
                                                         Padding(
                                                           padding:
                                                               const EdgeInsets
-                                                                      .fromLTRB(
+                                                                  .fromLTRB(
                                                                   4, 5, 4, 5),
                                                           child: DropdownButton(
                                                             // Initial Value
@@ -774,7 +774,7 @@ class _ProfilePageState extends ConsumerState<ProfilePage> {
                                                         Padding(
                                                           padding:
                                                               const EdgeInsets
-                                                                      .fromLTRB(
+                                                                  .fromLTRB(
                                                                   4, 5, 4, 5),
                                                           child: DropdownButton(
                                                             // Initial Value
